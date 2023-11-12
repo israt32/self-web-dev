@@ -5,7 +5,8 @@ body{
 }
 section{
   display: flex;
-  justify-content: left;
+  
+  margin-bottom: 100px;
 }
 h1{
   font-size: 50px;
@@ -28,4 +29,16 @@ width: 50%;
 .top-one{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-div{
+  padding-right: 5%;
+  width: 50%;
+}
+.dream-div img{
+width: 80%;
+}
+.second-sec{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
