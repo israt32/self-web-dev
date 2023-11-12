@@ -3,9 +3,8 @@ body{
   margin: 0;
 
 }
-section{
+.flexible-container{
   display: flex;
-  
   margin-bottom: 100px;
 }
 h1{
@@ -27,6 +26,7 @@ width: 50%;
   color: white;
 }
 .top-one{
+  
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -38,7 +38,40 @@ width: 50%;
 width: 80%;
 }
 .second-sec{
+ 
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.half-div{
+  width: 50%;
+  box-shadow: 10px 5px 20px gray;
+  padding: 50px;
+  margin: 50px;
+ 
+  border-radius: 2%;
+  
+}
+.experience{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+#baby-web-dev{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue,cyan);
+  border-image-slice: 1;
+}
+#full-stack-dev{
+  border-left: 7px solid;
+  border-image: linear-gradient(orange, red);
+  border-image-slice: 1;
+}
+h2{
+  font-size: 35px;
+}
+footer p{
+  text-align: center;
 }
